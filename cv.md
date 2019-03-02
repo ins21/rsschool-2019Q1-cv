@@ -8,7 +8,7 @@
 
 ### Contacts
 
-:iphone:| :email: | :octocat: |  
+Phone number| E-mail | GitHub |  
 ------------ | ------------- | ------------ | 
 +375-447867117 | leonnby@gmail.com | [ins21](https://github.com/ins21) | 
 
