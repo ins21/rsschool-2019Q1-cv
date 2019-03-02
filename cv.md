@@ -36,7 +36,7 @@ For me programming, especially Front-end, is something truly exciting and motiva
 - HTMLacademy projects: Barbershop, Glacy, Sedona, The Great Keksby
 
 ### Education
-**University:** Minsk State Linguistic University, English Language Faculty, *2008 - 2013*
+**University:** Minsk State Linguistic University, English Language Faculty, *2008 - 2013*  
 **Courses:**
   1. [HTMLacademy (HTML, CSS, Javascript)](https://htmlacademy.ru/profile/leonnby/achievements) 
   2. [Codecademy (HTML, CSS)](https://www.codecademy.com/users/insby/achievements) 
