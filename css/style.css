@@ -98,3 +98,44 @@ h2 {
 .summary__description {
   font-family: 'Lora', serif;
 }
+
+.skills__list {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.skills__list-item {
+  display: flex;
+  margin: 5px 0;
+  align-items: center;
+}
+
+.skills__list-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.education {
+  flex-direction: column;
+}
+
+.experience__list {
+  margin-left: 30px;  
+}
+
+.experience__list-item {
+  margin: 10px;
+}
+
+.education__university, .education__courses {
+  margin-bottom: 10px;
+}
+
+.education__list {
+  margin-left: 65px;
+}
+
+.education__list-item {
+  margin: 10px;
+}
