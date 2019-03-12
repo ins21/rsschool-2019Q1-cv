@@ -139,3 +139,23 @@ h2 {
 .education__list-item {
   margin: 10px;
 }
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+footer span {
+  width: 90%;
+}
+
+.contacts {
+  padding-bottom: 20px;
+}
