@@ -67,4 +67,34 @@ a {
   color: #fff
 }
 
+section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 100px;
+}
+ 
+h2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
+.info__photo {
+  width: 165px;
+  height: 234px;
+  margin-right: 50px;
+}
+
+.info__details p {
+  margin-bottom: 10px;
+  font-style: italic;  
+}
+
+.info__details span {
+  font-style: normal;
+  font-size: 18px;
+}
+
+.summary__description {
+  font-family: 'Lora', serif;
+}
