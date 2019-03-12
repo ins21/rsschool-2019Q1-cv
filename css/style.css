@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #fffefb;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 1024px;
+  margin: 0 auto;  
+  font-size: 17px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  position: absolute;
+  font-size: 1px;
+  color: transparent;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.navigation__menu {
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+  list-style: none;  
+  font-size: 16px;
+  background-color: #343A40;
+}
+
+.navigation__menu-item {
+  position: relative;
+}
+
+.navigation__menu-item::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: '';
+  width: 2px;
+  height: 100%;
+  background-color: #212424;
+}
+
+.navigation__menu-item:last-child::after {
+  display: none;
+}
+
+.navigation__menu a {
+  display: block;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 20px 0;
+  color: rgb(211, 212, 211);
+}
+
+.navigation__menu a:hover {
+  color: #fff
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 100px;
+}
+ 
+h2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info__photo {
+  width: 165px;
+  height: 234px;
+  margin-right: 50px;
+}
+
+.info__details p {
+  margin-bottom: 10px;
+  font-style: italic;  
+}
+
+.info__details span {
+  font-style: normal;
+  font-size: 18px;
+}
+
+.summary__description {
+  font-family: 'Lora', serif;
+}
+
+.skills__list {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.skills__list-item {
+  display: flex;
+  margin: 5px 0;
+  align-items: center;
+}
+
+.skills__list-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.education {
+  flex-direction: column;
+}
+
+.experience__list {
+  margin-left: 30px;  
+}
+
+.experience__list-item {
+  margin: 10px;
+}
+
+.education__university, .education__courses {
+  margin-bottom: 10px;
+}
+
+.education__list {
+  margin-left: 65px;
+}
+
+.education__list-item {
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+footer span {
+  width: 90%;
+}
+
+.contacts {
+  padding-bottom: 20px;
+}
